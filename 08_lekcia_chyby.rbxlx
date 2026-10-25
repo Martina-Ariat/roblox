@@ -1,0 +1,148 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+	<Item class="Workspace" referent="RBX1">
+		<Properties>
+			<string name="Name">Workspace</string>
+		</Properties>
+		<Item class="Part" referent="RBX2">
+			<Properties>
+				<string name="Name">Baseplate</string>
+				<bool name="Anchored">true</bool>
+				<Color3uint8 name="Color3uint8">4281503038</Color3uint8>
+				<CoordinateFrame name="CFrame"><X>0.0</X><Y>-10.0</Y><Z>0.0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+				<Vector3 name="size"><X>512.0</X><Y>20.0</Y><Z>512.0</Z></Vector3>
+				<token name="shape">1</token>
+				<token name="Material">1280</token>
+				<bool name="Locked">true</bool>
+			</Properties>
+		</Item>
+		<Item class="SpawnLocation" referent="RBX3">
+			<Properties>
+				<string name="Name">SpawnLocation</string>
+				<bool name="Anchored">true</bool>
+				<Color3uint8 name="Color3uint8">4291045404</Color3uint8>
+				<CoordinateFrame name="CFrame"><X>0.0</X><Y>0.5</Y><Z>0.0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+				<Vector3 name="size"><X>12.0</X><Y>1.0</Y><Z>12.0</Z></Vector3>
+				<token name="shape">1</token>
+			</Properties>
+		</Item>
+		<Item class="Script" referent="RBX4">
+			<Properties>
+				<string name="Name">chyba_1</string>
+				<ProtectedString name="Source"><![CDATA[workspace.Gula.Transparency = 1]]></ProtectedString>
+				<bool name="Disabled">true</bool>
+			</Properties>
+		</Item>
+		<Item class="Script" referent="RBX5">
+			<Properties>
+				<string name="Name">chyba_2</string>
+				<ProtectedString name="Source"><![CDATA[print("Ahoj"]]></ProtectedString>
+				<bool name="Disabled">true</bool>
+			</Properties>
+		</Item>
+		<Item class="Script" referent="RBX6">
+			<Properties>
+				<string name="Name">chyba_3</string>
+				<ProtectedString name="Source"><![CDATA[local function pozdrav()
+    print("Ahoj")]]></ProtectedString>
+				<bool name="Disabled">true</bool>
+			</Properties>
+		</Item>
+		<Item class="Script" referent="RBX7">
+			<Properties>
+				<string name="Name">chyba_4</string>
+				<ProtectedString name="Source"><![CDATA[workspace.Gulicka.transparency = 1]]></ProtectedString>
+				<bool name="Disabled">true</bool>
+			</Properties>
+		</Item>
+		<Item class="Script" referent="RBX8">
+			<Properties>
+				<string name="Name">chyba_5</string>
+				<ProtectedString name="Source"><![CDATA[task.wait("3")
+print("Hotovo")]]></ProtectedString>
+				<bool name="Disabled">true</bool>
+			</Properties>
+		</Item>
+		<Item class="Part" referent="RBX9">
+			<Properties>
+				<string name="Name">object_8.2</string>
+				<bool name="Anchored">true</bool>
+				<Color3uint8 name="Color3uint8">4279069100</Color3uint8>
+				<CoordinateFrame name="CFrame"><X>-42.0</X><Y>2.5</Y><Z>-22.0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+				<Vector3 name="size"><X>4.0</X><Y>4.0</Y><Z>4.0</Z></Vector3>
+				<token name="shape">1</token>
+			</Properties>
+			<Item class="Script" referent="RBX10">
+				<Properties>
+					<string name="Name">script_8.2</string>
+					<ProtectedString name="Source"><![CDATA[print("1 - skript sa spustil")
+
+task.wait(3)
+print("2 - docakal som")
+
+script.Parent.Transparency = 1
+script.Parent.CanCollide = false
+print("3 - objekt je neviditelny")
+
+task.wait(2)
+script.Parent.Transparency = 0
+script.Parent.CanCollide = true
+print("4 - objekt je spat")]]></ProtectedString>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Part" referent="RBX11">
+			<Properties>
+				<string name="Name">Gulicka</string>
+				<bool name="Anchored">true</bool>
+				<Color3uint8 name="Color3uint8">4294298928</Color3uint8>
+				<CoordinateFrame name="CFrame"><X>-30.0</X><Y>3.0</Y><Z>-22.0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+				<Vector3 name="size"><X>5.0</X><Y>5.0</Y><Z>5.0</Z></Vector3>
+				<token name="shape">0</token>
+			</Properties>
+		</Item>
+		<Item class="Folder" referent="RBX12">
+			<Properties>
+				<string name="Name">RIESENIA_8.1</string>
+			</Properties>
+			<Item class="Script" referent="RBX13">
+				<Properties>
+					<string name="Name">chyba_1_OPRAVENE</string>
+					<ProtectedString name="Source"><![CDATA[workspace.Gulicka.Transparency = 1]]></ProtectedString>
+					<bool name="Disabled">true</bool>
+				</Properties>
+			</Item>
+			<Item class="Script" referent="RBX14">
+				<Properties>
+					<string name="Name">chyba_2_OPRAVENE</string>
+					<ProtectedString name="Source"><![CDATA[print("Ahoj")]]></ProtectedString>
+					<bool name="Disabled">true</bool>
+				</Properties>
+			</Item>
+			<Item class="Script" referent="RBX15">
+				<Properties>
+					<string name="Name">chyba_3_OPRAVENE</string>
+					<ProtectedString name="Source"><![CDATA[local function pozdrav()
+    print("Ahoj")
+end
+
+pozdrav()]]></ProtectedString>
+					<bool name="Disabled">true</bool>
+				</Properties>
+			</Item>
+			<Item class="Script" referent="RBX16">
+				<Properties>
+					<string name="Name">chyba_4_OPRAVENE</string>
+					<ProtectedString name="Source"><![CDATA[workspace.Gulicka.Transparency = 1]]></ProtectedString>
+					<bool name="Disabled">true</bool>
+				</Properties>
+			</Item>
+			<Item class="Script" referent="RBX17">
+				<Properties>
+					<string name="Name">chyba_5_OPRAVENE</string>
+					<ProtectedString name="Source"><![CDATA[task.wait(3)]]></ProtectedString>
+					<bool name="Disabled">true</bool>
+				</Properties>
+			</Item>
+		</Item>
+	</Item>
+</roblox>
