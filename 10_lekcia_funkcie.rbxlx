@@ -1,0 +1,133 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+	<Item class="Workspace" referent="RBX1">
+		<Properties>
+			<string name="Name">Workspace</string>
+		</Properties>
+		<Item class="Part" referent="RBX2">
+			<Properties>
+				<string name="Name">Baseplate</string>
+				<bool name="Anchored">true</bool>
+				<Color3uint8 name="Color3uint8">4281503038</Color3uint8>
+				<CoordinateFrame name="CFrame"><X>0.0</X><Y>-10.0</Y><Z>0.0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+				<Vector3 name="size"><X>512.0</X><Y>20.0</Y><Z>512.0</Z></Vector3>
+				<token name="shape">1</token>
+				<token name="Material">1280</token>
+				<bool name="Locked">true</bool>
+			</Properties>
+		</Item>
+		<Item class="SpawnLocation" referent="RBX3">
+			<Properties>
+				<string name="Name">SpawnLocation</string>
+				<bool name="Anchored">true</bool>
+				<Color3uint8 name="Color3uint8">4291045404</Color3uint8>
+				<CoordinateFrame name="CFrame"><X>0.0</X><Y>0.5</Y><Z>0.0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+				<Vector3 name="size"><X>12.0</X><Y>1.0</Y><Z>12.0</Z></Vector3>
+				<token name="shape">1</token>
+			</Properties>
+		</Item>
+		<Item class="Part" referent="RBX4">
+			<Properties>
+				<string name="Name">object_10.1</string>
+				<bool name="Anchored">true</bool>
+				<Color3uint8 name="Color3uint8">4279069100</Color3uint8>
+				<CoordinateFrame name="CFrame"><X>-42.0</X><Y>2.5</Y><Z>-22.0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+				<Vector3 name="size"><X>4.0</X><Y>4.0</Y><Z>4.0</Z></Vector3>
+				<token name="shape">1</token>
+			</Properties>
+			<Item class="Script" referent="RBX5">
+				<Properties>
+					<string name="Name">script_10.1</string>
+					<ProtectedString name="Source"><![CDATA[local function vypisMeno()
+    print(script.Parent.Name)
+end
+
+vypisMeno()]]></ProtectedString>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Part" referent="RBX6">
+			<Properties>
+				<string name="Name">object_10.2</string>
+				<bool name="Anchored">false</bool>
+				<Color3uint8 name="Color3uint8">4292511041</Color3uint8>
+				<CoordinateFrame name="CFrame"><X>-30.0</X><Y>2.5</Y><Z>-22.0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+				<Vector3 name="size"><X>4.0</X><Y>4.0</Y><Z>4.0</Z></Vector3>
+				<token name="shape">0</token>
+			</Properties>
+			<Item class="Script" referent="RBX7">
+				<Properties>
+					<string name="Name">script_10.2</string>
+					<ProtectedString name="Source"><![CDATA[local function zastavGulu()
+    script.Parent.Anchored = true
+    print("Gula je ukotvena.")
+end
+
+print("Gula sa zatial moze hybat.")
+
+task.wait(3)
+zastavGulu()]]></ProtectedString>
+					<bool name="Disabled">true</bool>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Part" referent="RBX8">
+			<Properties>
+				<string name="Name">object_10.3</string>
+				<bool name="Anchored">true</bool>
+				<Color3uint8 name="Color3uint8">4288914085</Color3uint8>
+				<CoordinateFrame name="CFrame"><X>-18.0</X><Y>2.5</Y><Z>-22.0</Z><R00>1</R00><R01>0</R01><R02>0</R02><R10>0</R10><R11>1</R11><R12>0</R12><R20>0</R20><R21>0</R21><R22>1</R22></CoordinateFrame>
+				<Vector3 name="size"><X>4.0</X><Y>4.0</Y><Z>4.0</Z></Vector3>
+				<token name="shape">1</token>
+			</Properties>
+			<Item class="Script" referent="RBX9">
+				<Properties>
+					<string name="Name">script_10.3</string>
+					<ProtectedString name="Source"><![CDATA[local function zmenFarbu(cervena, zelena, modra)
+    script.Parent.Color = Color3.fromRGB(cervena, zelena, modra)
+end
+
+zmenFarbu(0, 120, 255)]]></ProtectedString>
+					<bool name="Disabled">true</bool>
+				</Properties>
+			</Item>
+		</Item>
+		<Item class="Script" referent="RBX10">
+			<Properties>
+				<string name="Name">script_10.4</string>
+				<ProtectedString name="Source"><![CDATA[local function scitaj(a, b)
+    return a + b
+end
+
+local vysledok = scitaj(12, 30)
+print("Vysledok je: " .. vysledok)]]></ProtectedString>
+				<bool name="Disabled">true</bool>
+			</Properties>
+		</Item>
+		<Item class="Script" referent="RBX11">
+			<Properties>
+				<string name="Name">script_10.5</string>
+				<ProtectedString name="Source"><![CDATA[local function scitaj(a, b)
+    return a + b
+end
+
+local function odcitaj(a, b)
+    return a - b
+end
+
+local function vynasob(a, b)
+    return a * b
+end
+
+local function vydel(a, b)
+    return a / b
+end
+
+print("Sucet:  " .. scitaj(10, 5))
+print("Rozdiel: " .. odcitaj(10, 5))
+print("Sucin:  " .. vynasob(10, 5))
+print("Podiel: " .. vydel(10, 5))]]></ProtectedString>
+				<bool name="Disabled">true</bool>
+			</Properties>
+		</Item>
+	</Item>
+</roblox>
